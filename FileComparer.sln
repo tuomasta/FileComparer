@@ -7,13 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileComparer", "FileCompare
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{EBD8CD66-CF7C-49C3-B100-87997427F403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "Application.Tests\Application.Tests.csproj", "{F65E0B04-B3E1-4C1C-A10A-AACDE12FBA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Tests", "Application.Tests\Application.Tests.csproj", "{F65E0B04-B3E1-4C1C-A10A-AACDE12FBA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrations.Tests", "Integrations.Tests\Integrations.Tests.csproj", "{AEB9F215-D567-4012-8E6C-2B27D188925C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integrations.Tests", "Integrations.Tests\Integrations.Tests.csproj", "{AEB9F215-D567-4012-8E6C-2B27D188925C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00EA8E8C-4044-4867-85AE-80D189838668}"
 	ProjectSection(SolutionItems) = preProject
-		README.md.txt = README.md.txt
+		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

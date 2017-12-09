@@ -13,10 +13,14 @@ or
 
 
 ## Endpoints
-*<host>/api/v1/files/{id}*
+*{host}/api/v1/files/{id}*
 
 Supports GET, POST and DELETE to manage files
 
-*<host>right/{rightId}/left/{leftId}*
+*{host}/right/{rightId}/left/{leftId}*
 
 Endpoint for comparing the files. *rightId* is the id of the right hand side 'old' file and the *leftId* is the id of the left hand side 'new' file id.
+
+*{host}/swagger/*
+
+Swagger UI for documentation and testing.
