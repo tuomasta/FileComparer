@@ -4,7 +4,10 @@ Simple web API to store and compare files.
 ## Run
 * Clone
 * cd FileComparer
+* dotnet restore
 * dotnet run --project FileComparer/FileComparer.csproj
+* open uri http://localhost:5000/swagger/
+
 
 or
 
